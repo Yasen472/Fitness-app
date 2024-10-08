@@ -71,9 +71,7 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: flex-start;
-  /* background-color: red; */
   height: 100%;
 }
 
@@ -108,13 +106,10 @@
 .exercise .repetitions span {
   font-weight: 800;
   font-size: 1.5em;
-  /* text-transform: uppercase; */
   color: #f05454;
-  /* padding: 0px 10px 0px 10px; */
 }
 
 .selected {
-  /* dropshadow  blur #F05454*/
   box-shadow: 1px 2px 1px 0px #f05454 !important;
 }
 

@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react'
-
 import './Workout.css'
-
 import GATTO from '../../assets/gatto.jpg'
 import { usePocket } from '../../contexts/PocketContext'
 import { useNavigate, useParams } from 'react-router-dom'
@@ -62,7 +60,6 @@ export default function Workout() {
   const handleFinishWorkout = async () => {
     const today = new Date()
 
-    // proveri dali e pravil tazi trenirovka dnes
     if (
       !completedWorkouts.some((completedWorkout) => {
         const completedDate = new Date(completedWorkout.date)

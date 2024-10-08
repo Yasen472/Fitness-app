@@ -1,14 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { usePocket } from '../../contexts/PocketContext'
-
 import DEFAULT_MALE from '../../assets/default_avatar_man.jpg'
-
 import PEN from '../../assets/pen.png'
-
 import { toast } from 'react-toastify'
-
 import './EditProfile.css'
-import { calculateBMI } from '../../Util'
 import { useNavigate } from 'react-router-dom'
 
 export default function EditProfile() {
@@ -31,12 +26,9 @@ export default function EditProfile() {
       : DEFAULT_MALE
   }
 
-  // @todo FIX state for bmi
-  // @todo update user in db
 
   const handleSave = async () => {
     const data = {}
-    // mnogo if-ove, tui kato data ne trqbva da ima undefined property-ta.
     if (heightRef.current?.value) {
       data.height = heightRef.current.value
     }

@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 import {
   createContext,
   useContext,
@@ -19,7 +18,6 @@ const twoMinutesInMs = ms('2 minutes')
 
 const PocketContext = createContext({})
 
-// eslint-disable-next-line react/prop-types
 export const PocketProvider = ({ children }) => {
   const pb = useMemo(() => new PocketBase(BASE_URL), [])
 

@@ -44,7 +44,6 @@
   justify-content: strat;
   flex-grow: 1;
   flex-basis: 50%;
-  /* background-color: red; */
   margin-right: 25px;
   height: 100vh;
   border-radius: 16px;
@@ -58,7 +57,6 @@
 
 .workout {
   position: relative;
-  /* padding: 25px; */
   margin: 10px;
   width: 550px;
   background-color: #f5f5f5;
@@ -114,7 +112,6 @@
   display: flex;
   flex-direction: column;
   border-radius: 12px;
-  /* align-items: center; */
 }
 
 .logs-container p {

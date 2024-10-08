@@ -46,7 +46,7 @@ export default function SignUp() {
         toast.error(err.message)
       }
     },
-    [register] // Only include the dependencies that are necessary
+    [register] 
   )
 
   useEffect(() => {
